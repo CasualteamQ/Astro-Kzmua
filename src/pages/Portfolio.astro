@@ -1,47 +1,50 @@
 ---
 import Layout from "../layouts/Layout.astro";
-
 ---
 
 <Layout title="Porfolio">
+  <div
+    class="mt-20 md:w-screen md:grid md:grid-rows-1 2xl: 2xl: 2xl:flex 2xl:justify-evenly lg:flex lg:justify-around lg: max-sm:grid max-sm:grid-cols-1"
+  >
+    <div class="max-md:m-auto">
+      <h3 class="flex justify-center text-4xl mb-4 font-Sunday">MakeUp</h3>
 
-    <div>
-        
-    <div class=' md:w-screen md:grid md:grid-rows-1 2xl: 2xl: 2xl: 2xl:justify-center   lg:grid lg:grid-cols-1 max-sm:grid max-sm:grid-cols-1  ' >
-
+      <div class="p-8 rounded-xl w-96 h-full">
+        <div
+          class="h-fit rounded-xl p-2 w-80 hover:opacity-75 hover:transition-opacity"
+        >
+          <a href="/GalleryMU">
+            <video
+              transition:persist
+              class="grayscale rounded-xl"
+              autoplay
+              muted
+              loop
+              src="/Portal.mp4"></video>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="max-md:m-auto">
+      
+        <h3 class="flex justify-center text-4xl mb-4 font-Sunday">Hairstyle</h3>
+        <div class="p-8 rounded-xl w-96 h-full">
+          <div
+            class="h-fit rounded-xl p-2 w-80 hover:opacity-75 hover:transition-opacity"
+          >
+            <a class="">
+              <img
+                class="rounded-3xl p-2 w-80 hover:opacity-75 hover:transition-opacity"
+                src="/yuyito.jpg"
+                alt=""
+              />
+            </a>
+          </div>
+        </div>
+      
+    </div>
+  </div>
   
 
-        <div class=" m-auto">
-            <div class="">
-          <h3 class="flex justify-center text-4xl mb-4 font-Sunday">MakeUp </h3>
-        </div>
-           <div class="p-8 rounded-xl w-96 h-full">
-            <div class="h-fit rounded-xl p-2 w-80 hover:opacity-75  hover:transition-opacity">
-            <a href="/GalleryMU" >
+</Layout>
 
-         <video transition:persist class='grayscale rounded-xl' autoplay muted loop src='/Portal.mp4'/>
-            </a>
-{/*          <img class=' rounded-xl p-2 w-80 hover:opacity-75  hover:transition-opacity' src="public\yuyito.jpg" alt="" />
- */}         </div>
-       
-       
-    </div>
-        </div>
-        </div>
-        <div class="md:w-screen md:flex md:flex-col md:items-center md:content-center m-auto">
-         <div >
-          <h3 class=" flex justify-center text-4xl mb-4 font-Sunday">Hairstyle </h3>
-           </div>
-           <div class=" p-8  w-96 h-full">
-            <div class="">
-         <a  class="">
-
-         <img class=' rounded-3xl p-2 w-80 hover:opacity-75  hover:transition-opacity' src="/yuyito.jpg" alt="" />
-         </a>
-         </div>
-       
-       
-        </div>
-        </div>
-
-    </Layout>

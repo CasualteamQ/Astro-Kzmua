@@ -8,6 +8,7 @@ module.exports = {
 			'sfthin':['sfthin'],
 			'montserrat':['montserrat'],
 			'Sunday':['Sunday'],
+			'mooli':['mooli'],
 
 		}
 		
